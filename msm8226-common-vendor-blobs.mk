@@ -258,6 +258,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8226-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm8226-common/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/samsung/msm8226-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/msm8226-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
@@ -316,4 +317,29 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     vendor/samsung/msm8226-common/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/samsung/msm8226-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+    vendor/samsung/msm8226-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libutils.so:system/lib/libutils.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libcutils.so:system/lib/libcutils.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libhardware.so:system/lib/libhardware.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libEGL.so:system/lib/libEGL.so \
+    vendor/samsung/msm8226-common/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libexternal.so:system/lib/libexternal.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libdl.so:system/lib/libdl.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libqservice.so:system/lib/libqservice.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libsync.so:system/lib/libsync.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libbinder.so:system/lib/libbinder.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libmedia.so:system/lib/libmedia.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libvirtual.so:system/lib/libvirtual.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libskia.so:system/lib/libskia.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libc.so:system/lib/libc.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libm.so:system/lib/libm.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
+    vendor/samsung/msm8226-common/proprietary/lib/hw/hwcomposer.msm8226.so:system/lib/hw/hwcomposer.msm8226.so \
+    vendor/samsung/msm8226-common/proprietary/lib/hw/copybit.msm8226.so:system/lib/hw/copybit.msm8226.so \
+    vendor/samsung/msm8226-common/proprietary/lib/libc.so:system/lib/libc.so \
+    vendor/samsung/msm8226-common/proprietary/bin/mobicore-presetup.sh:system/bin/mobicore-presetup.sh \
+    vendor/samsung/msm8226-common/proprietary/bin/mobicore-startup.sh:system/bin/mobicore-startup.sh
